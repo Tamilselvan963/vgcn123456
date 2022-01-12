@@ -1,6 +1,5 @@
 <template>
   <div>
-  
     <div class="backgroundimage1">
       <v-row class="pa-0 pt-0">
         <v-col cols="6" class="pa-0 pt-0">
@@ -85,7 +84,6 @@
           <v-col cols="6"> </v-col>
         </v-col>
         <div>
-         
           <div>
             <v-col cols="6">
               <div class="my-2">
@@ -110,7 +108,7 @@
               >
                 white paper
               </h2>
-           
+
               <h3
                 class="text-uppercase white--text text-muted mb-1 text-center"
               >
@@ -121,8 +119,6 @@
                 <br />large impact in solving real world problems.
               </p>
               <div class="text-center">
-              
-
                 <v-btn
                   class="ma-2"
                   outlined
@@ -133,7 +129,6 @@
                   Download PDF
                 </v-btn>
               </div>
-          
             </v-col>
           </div>
         </div>
@@ -146,8 +141,6 @@
             <img src="../assets/VGCN ROADMAP.png" style="width: 100%" />
           </span>
         </div>
-
-      
       </v-row>
     </div>
     <div class="backgroundimage2">
@@ -167,7 +160,7 @@
           Founder Of The VGCN
         </div>
       </div>
-      <v-card class="" >
+      <v-card class="">
         <v-row align="">
           <v-col cols="5">
             <v-img src="../assets/jaffersir.jpg" width="92%"></v-img>
@@ -186,10 +179,7 @@
           </v-col>
         </v-row>
       </v-card>
-   
     </div>
-
-   
 
     <div class="backgroundimage3" style="width-100%" flat>
       <div
@@ -288,8 +278,7 @@
 
         <div class="white--text pl-6 pb-1">
           © Copyrights @ 2021 Venus Global Chain. All Rights Reserved | info
-          <v-avatar style="height: 30px; min-width: 30px; width: 30px  ;
-   ">
+          <v-avatar style="height: 30px; min-width: 30px; width: 30px">
             <a href="https://venusglobalchain.com/">
               <img src="../assets/globe-logo-19190901.jpg" />
             </a>
@@ -305,7 +294,6 @@
         </div>
       </div>
     </div>
-  
   </div>
 </template>
 
@@ -315,10 +303,7 @@ export default {
     return {
       loader: null,
       loading: false,
-      colors: [
-        
-        "yellow darken-2",
-      ],
+      colors: ["yellow darken-2"],
       show1: false,
       show2: true,
       show3: false,
@@ -330,7 +315,6 @@ export default {
         emailMatch: () => `The email and password you entered don't match`,
       },
     };
-  
   },
 
   watch: {
@@ -352,14 +336,12 @@ export default {
   font-family: Publico, Georgia, serif !important;
 }
 .backgroundimage {
-  
   background-image: url("../assets/blockchain-technology-feature.jpg");
 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-
 }
 .backgroundimage1 {
   background-image: url("../assets/blockchain-technology-feature.jpg");
@@ -420,7 +402,6 @@ export default {
 }
 
 .linkid {
-
   text-decoration: none !important;
   padding: 6px;
   padding-left: 66px;
@@ -498,7 +479,6 @@ export default {
   background: #ffffff;
   align-items: flex-start;
 }
-
 </style>
 <style lang="sass" scoped>
 .v-card.on-hover.theme--dark
